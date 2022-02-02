@@ -9,6 +9,20 @@ edit files..
 git add .
 git commit -m "message"
 
+___Create a new branch___
+
+git branch demobranch
 git checkout demobranch
-git push origin demobranch
-git merge demobranch
+git push -u origin demobranch
+
+
+___Merging___
+
+git checkout main
+git merge demobranch   //merge demobranch to main
+git push -u origin main
+
+___Deleting demobranch locally and remotely___
+
+git branch -d demobranch	// delete demobranch locally
+git push origin --delete demobranch // delete demobranch remotely
