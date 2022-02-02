@@ -6,8 +6,8 @@ git pull
 
 edit files..
 
-git add
-git commit "message"
+git add .
+git commit -m "message"
 
 git checkout demobranch
 git push origin demobranch
