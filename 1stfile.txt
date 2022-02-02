@@ -1,2 +1,14 @@
 Just checking. 
 New change for demobranch.
+git init
+git clone http....
+git pull
+
+edit files..
+
+git add
+git commit "message"
+
+git checkout demobranch
+git push origin demobranch
+git merge demobranch
